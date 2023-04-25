@@ -43,9 +43,9 @@
   editInput.className="task-input task-list__input";
   
   editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
-  editButton.className="btn_edit";
+  editButton.className="button btn_edit";
 
-  deleteButton.className="btn_delete";
+  deleteButton.className="button btn_delete";
   deleteButtonImg.src="./remove.svg";
   deleteButtonImg.className="task-list__btn-img"
   deleteButton.appendChild(deleteButtonImg);
