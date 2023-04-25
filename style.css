@@ -53,11 +53,16 @@ body {
   list-style: none;
 }
 
-.task-input, .btn_add, .btn_edit, .btn_delete {
+.task-input,
+.btn_add,
+.btn_edit,
+.btn_delete {
   outline: none;
 }
 
-.btn_add, .btn_edit, .btn_delete {
+.btn_add,
+.btn_edit,
+.btn_delete {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +72,9 @@ body {
   cursor: pointer;
 }
 
-.btn_add:hover, .btn_edit:hover, .btn_delete:hover {
+.btn_add:hover,
+.btn_edit:hover,
+.btn_delete:hover {
   color: #3a3a3a;
 }
 
